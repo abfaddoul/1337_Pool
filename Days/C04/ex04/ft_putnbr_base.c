@@ -127,7 +127,7 @@ int ft_invalid(char *base)
 }
 void ft_putnbr_base(int nbr, char *base)
 {
-        if(ft_invalid(base) == 0 || ft_double(base) == 0)
+        if(ft_invalid(base) == 0)
         {
                 return ;
         }

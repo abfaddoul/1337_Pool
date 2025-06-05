@@ -73,8 +73,8 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 
 int main()
 {
-	int size = 4;
-	char *strs[] = {"hello","the","fucking","world"};
+	int size = 3;
+	char *strs[] = {"hello","the","world"};
 
 	char *sep = "    ";
 
